@@ -1,5 +1,9 @@
 # 3d-pic
 
+## 预览
+
+![预览](https://ldq-first.github.io/3d-pic/)
+
 
 ## 效果图
 
