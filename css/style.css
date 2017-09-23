@@ -48,6 +48,7 @@ ul, li {
     background: #EEE;   
     border-radius: 0.5em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .link .url {
