@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    background: #51B6D7;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", 
+    "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",
+     sans-serif;
+     color: #2c3e50;
+    /*transform: perspective( 6000px );*/
+    /*perspective: 6000px;*/
+    position: relative;
+    overflow: hidden;
+}
+
+
+.box1 {
+    background: #F69A5D;
+    height: 560px;
+    width: 400px;
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    transform-style: preserve-3d;
+    transform: rotateX(54deg) rotateZ(-46deg) scale(0.6);
+    box-shadow: -13px 9px 10px 2px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/001.jpg') no-repeat center / cover;
+}
+
+.box2 {
+    background: #A392FC;
+    height: 560px;
+    width: 400px;
+    position: absolute;
+    top: -18%;
+    left: -4%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.4);
+    box-shadow: -17px 10px 10px 2px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/002.jpg') no-repeat center / cover;
+}
+
+
+.box3 {
+    background: #A392FC;
+    height: 560px;
+    width: 400px;
+    position: absolute;
+    top: -18%;
+    left: 8%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.4);
+    box-shadow:  -17px 10px 10px 2px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/003.jpg') no-repeat center / cover;
+}
+
+
+
+.box4 {
+    background: #A392FC;
+    height: 560px;
+    width: 400px;
+    position: absolute;
+    top: -18%;
+    left: 20%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.4);
+    box-shadow: -2px 13px 10px 2px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/004.jpg') no-repeat center / cover;
+}
+
+
+
+.box5 {
+    background: #FF9494;
+    height: 570px;
+    width: 400px;
+    position: absolute;
+    top: 6%;
+    left: 16%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) scale(0.6);
+    box-shadow: -17px 10px 10px 2px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 0;
+    background: url('../img/008.jpg') no-repeat center / cover;
+}
+
+
+
+.box6 {
+    background: #FF9494;
+    height: 570px;
+    width: 400px;
+    position: absolute;
+    top: 6%;
+    left: 36%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) scale(0.6);
+    box-shadow: -17px 10px 10px 2px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 1;
+    background: url('../img/009.jpg') no-repeat center / cover;
+}
+
+
+.box7 {
+    background: #FF9494;
+    height: 570px;
+    width: 440px;
+    position: absolute;
+    top: 6%;
+    left: 56%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) scale(0.6);
+    box-shadow: -5px 9px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 1;
+    background: url('../img/010.jpg') no-repeat center / cover;
+}
+
+
+.box8 {
+    background: #FF9494;
+    height: 560px;
+    width: 400px;
+    position: absolute;
+    bottom: -14%;
+    right: 30%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.4);
+    box-shadow: -5px 9px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/005.jpg') no-repeat center / cover;
+}
+
+
+.box9 {
+    background: #90E3DE;
+    height: 560px;
+    width: 400px;
+    position: absolute;
+    bottom: -14%;
+    right: 19%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.4);
+    box-shadow: -4px 7px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/006.jpg') no-repeat center / cover;
+}
+
+.box10 {
+    background: #90E3DE;
+    height: 560px;
+    width: 400px;
+    position: absolute;
+    bottom: -14%;
+    right: 8%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.4);
+    box-shadow: -4px 7px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/007.jpg') no-repeat center / cover;
+}
