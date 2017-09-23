@@ -18,6 +18,7 @@ body {
     /*transform: perspective( 6000px );*/
     /*perspective: 6000px;*/
     position: relative;
+    overflow: hidden;
 }
 
 
