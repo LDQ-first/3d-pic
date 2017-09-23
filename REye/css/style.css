@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    background: #51B6D7;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", 
+    "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",
+     sans-serif;
+     color: #2c3e50;
+    /*transform: perspective( 6000px );*/
+    /*perspective: 6000px;*/
+    position: relative;
+}
+
+
+.box1 {
+    background: #F69A5D;
+    height: 670px;
+    width: 380px;
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    transform-style: preserve-3d;
+    transform: rotateX(54deg) rotateZ(-46deg) scale(0.6);
+    box-shadow: -13px 9px 10px 2px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 0;
+    background: url('../img/index.jpg') no-repeat center / cover;
+}
+
+.box2 {
+    background: #A392FC;
+    height: 350px;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.9);
+    opacity: 1;
+     z-index: 0;
+    background: url('../img/carousel.jpg') no-repeat center / cover;
+}
+
+.box2::before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 186px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotateX(90deg);
+    border-radius: 50%;
+}
+
+
+
+
+.box3 {
+    background: #A392FC;
+    height: 350px;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.9);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/feed.jpg') no-repeat center / cover;
+}
+
+.box3::before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 186px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotateX(90deg);
+    border-radius: 50%;
+}
+
+.box4 {
+    background: #A392FC;
+    height: 350px;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(40deg) scale(0.9);
+    opacity: 1;
+    z-index: 0;
+    background: url('../img/search.jpg') no-repeat center / cover;
+}
+
+.box4::before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 186px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotateX(90deg);
+    border-radius: 50%;
+}
+
+
+.box5 {
+    background: #FF9494;
+    height: 350px;
+    width: 200px;
+    position: absolute;
+    top: 4%;
+    left: 14%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) translate3d(0, 0, -100px) scale(1.2);
+    box-shadow: -5px 9px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 0;
+    background: url('../img/category.jpg') no-repeat center / cover;
+}
+
+
+
+.box6 {
+    background: #FF9494;
+    height: 470px;
+    width: 835px;
+    position: absolute;
+    bottom: 0%;
+    left: -8%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) translate3d(0, 0, -100px) scale(0.8);
+    box-shadow: -5px 9px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 1;
+    background: url('../img/video.jpg') no-repeat center / cover;
+}
+
+
+.box7 {
+    background: #FF9494;
+    height: 350px;
+    width: 200px;
+    position: absolute;
+    bottom: 8%;
+    right: 14%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) translate3d(0, 0, -100px) scale(1.2);
+    box-shadow: -5px 9px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 0;
+    background: url('../img/detail.jpg') no-repeat center / cover;
+}
+
+
+.box8 {
+    background: #FF9494;
+    height: 330px;
+    width: 310px;
+    position: absolute;
+    top: 6%;
+    right: 4%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) translate3d(0, 0, -100px);
+    box-shadow: -5px 9px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    z-index: 0;
+   /* background: url('../img/005.jpg') no-repeat center / cover;*/
+}
+
+
+.box9 {
+    background: #90E3DE;
+    width: 1050px;
+    height: 690px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform-style: preserve-3d;
+    transform: rotateX(50deg) rotateZ(40deg);
+    box-shadow: -4px 7px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: -1;
+  /*  background: url('../img/003.jpg') no-repeat center / cover;*/
+}
